@@ -22,8 +22,23 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body  style="height: 5000px" onscroll="document.getElementById('toolbar').style.top = Math.max(100, window.scrollY) + 'px'">
-	  
+  <body >
+	  <script>
+    function snap(destination) {
+        if (Math.abs(destination - window.scrollY) < 3) {
+            scrollTo(window.scrollX, destination);
+        } else if (Math.abs(destination - window.scrollY) < 200) {
+            scrollTo(window.scrollX, window.scrollY + ((destination - window.scrollY) / 2));
+            setTimeout(snap, 20, destination);
+        }
+    }
+    var timeoutId = null;
+    addEventListener("scroll", function() {
+        if (timeoutId) clearTimeout(timeoutId);
+        timeoutId = setTimeout(snap, 200, parseInt(document.getElementById('snaptarget').style.top));
+    }, true);
+ </script>
+ <div id="snaptarget" class="snaptarget" style="position: relative; top: 200px; width: 100%; height: 200px; background-color: green">
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
@@ -475,7 +490,7 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
+</div>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
