@@ -22,22 +22,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body >
-	  <script>
-    function snap(destination) {
-        if (Math.abs(destination - window.scrollY) < 3) {
-            scrollTo(window.scrollX, destination);
-        } else if (Math.abs(destination - window.scrollY) < 200) {
-            scrollTo(window.scrollX, window.scrollY + ((destination - window.scrollY) / 2));
-            setTimeout(snap, 20, destination);
-        }
-    }
-    var timeoutId = null;
-    addEventListener("scroll", function() {
-        if (timeoutId) clearTimeout(timeoutId);
-        timeoutId = setTimeout(snap, 200, parseInt(document.getElementById('snaptarget').style.top));
-    }, true);
- </script>
+   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
