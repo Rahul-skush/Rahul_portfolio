@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Rahul- Personal Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -17,429 +18,613 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/project_card.css">
+    <script src="jquery.js"></script>
+    <script>
+    $(function() {
+        $("#Education").load("Education.html");
+    });
+    </script>
+</head>
 
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">R</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	      <div class="slider-item ">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last img" style="background-image:url(images/rbg_1.jpg);">
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-	    						<span class="ion-ios-play play"></span>
-	    					</a>
-		          	<div class="text">
-		          		<span class="subheading">Hello</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Rahul Singh</span></h1>
-			            <h2 class="mb-4">A Freelance Web Developer</h2>
-			            <p><a href="#" class="btn-custom">Hire me</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
 
-	      <div class="slider-item">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last img" style="background-image:url(images/rbg_2.JPG);">
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-	    						<span class="ion-ios-play play"></span>
-	    					</a>
-		          	<div class="text">
-			            <h1 class="mb-4 mt-3">I'm a <span>web devloper</span> from India</h1>
-			            <p><a href="#" class="btn-custom">Hire me</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-	    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
+        id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">R</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                    <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home-section" class="hero">
+        <div class="home-slider  owl-carousel">
+            <div class="slider-item ">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                        data-scrollax-parent="true">
+                        <div class="one-third order-md-last img" style="background-image:url(images/rbg_1.jpg);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex  align-items-center ftco-animate"
+                            data-scrollax=" properties: { translateY: '70%' }">
+                            <a href="https://vimeo.com/45830194"
+                                class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                                <span class="ion-ios-play play"></span>
+                            </a>
+                            <div class="text">
+                                <span class="subheading">Hello</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Rahul Singh</span></h1>
+                                <h2 class="mb-4">A Freelance Web Developer</h2>
+                                <p><a href="#" class="btn-custom">Hire me</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
+                        data-scrollax-parent="true">
+                        <div class="one-third order-md-last img" style="background-image:url(images/rbg_2.JPG);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex align-items-center ftco-animate"
+                            data-scrollax=" properties: { translateY: '70%' }">
+                            <a href="https://vimeo.com/45830194"
+                                class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                                <span class="ion-ios-play play"></span>
+                            </a>
+                            <div class="text">
+                                <h1 class="mb-4 mt-3">I'm a <span>web devloper</span> from India</h1>
+                                <p><a href="#" class="btn-custom">Hire me</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="ftco-about ftco-counter img ftco-section" id="about-section">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/rabout-1.jpg);">
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 py-5">
-    				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		          	<span class="subheading">Welcome</span>
-		            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-		            <p>I'm a student pursuing graduation degree in computer science branch from a national importance institute that is <b>National Institue of Technology Raipur</b>, presently in 4<sup>th</sup> sem.</p>
-		          </div>
-		        </div>
-		        <div class="row">
-		        	<div class="col-md-6">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="icon"><span class="flaticon-analysis"></span></div>
-		              <div class="media-body">
-		                <h3 class="heading mb-3">Competitive coder</h3>
-		                <p>Competitve coding is one of my favourite hobby and passion, which i regularly enthusiast from daily coding contest in codechef, codeforces, spoz, etc.</p>
-		              </div>
-		            </div> 
-		        	</div>
-		        	<div class="col-md-6">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="icon"><span class="flaticon-analysis"></span></div>
-		              <div class="media-body">
-		                <h3 class="heading mb-3">Web Application</h3>
-		                <p>I have been continuosly working and learning many advance concepts to make my projects different and best one.</p>
-		              </div>
-		            </div> 
-		        	</div>
-		        </div>
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text p-4 pr-5 bg-primary">
-              	<p class="mb-0">
-	                <span class="number" data-number="3">0</span>
-	                <span>Finished Projects</span>
-                </p>
-              </div>
-	          </div>
-	        </div>
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay"></div>
+                        <div class="img d-flex align-self-stretch align-items-center"
+                            style="background-image:url(images/rabout-1.jpg);">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <span class="subheading">Welcome</span>
+                            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+                            <p>I'm a student pursuing graduation degree in computer science branch from a national
+                                importance institute that is <b>National Institue of Technology Raipur</b>, presently in
+                                4<sup>th</sup> sem.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="media block-6 services d-block ftco-animate">
+                                <div class="icon"><span class="flaticon-analysis"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">Competitive coder</h3>
+                                    <p>Competitve coding is one of my favourite hobby and passion, which i regularly
+                                        enthusiast from daily coding contest in codechef, codeforces, spoz, etc.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media block-6 services d-block ftco-animate">
+                                <div class="icon"><span class="flaticon-analysis"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">Web Application</h3>
+                                    <p>I have been continuosly working and learning many advance concepts to make my
+                                        projects different and best one.</p>
+                                </div>
+                                ?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                        <div class="text p-4 pr-5 bg-primary">
+                            <p class="mb-0">
+                                <span class="number" data-number="3">0</span>
+                                <span>Finished Projects</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    	</div>
     </section>
-		
-		<section class="ftco-section bg-light" id="skills-section">
-			<div class="container">
-				<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Skills</span>
-            <h2 class="mb-4">My Skills</h2>
-            <p>Far far away, behind the word mountains, far from skills enhancing to proficiency level!!</p>
-          </div>
-        </div>
-				<div class="row">
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Reactjs</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-							    <span>75%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Nodejs</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-							    <span>60%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Expressjs</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-							    <span>60%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Mongodb</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-							    <span>60%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>HTML5</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							    <span>85%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>CSS3</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>C++</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>C</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>SEO</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:20%">
-							    <span>20%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row justify-content-center py-5 mt-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">What I Do</span>
-            <h2 class="mb-4">Strategy, Development, idea building, and a bit of magic</h2>
-            <p>I'm regularly learning and enhancing my skills to heigher level and applying it in the best way i could do in project. </p>
-          </div>
-        </div>
 
-        <div class="row">
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<div class="services-1">
-							<span class="icon">
-								<i class="flaticon-analysis"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5"><a href="#">Explore</a></h3>
-								<h4>Design Sprints</h4>
-								<h4>web Technology</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<div class="services-1">
-							<span class="icon">
-								<i class="flaticon-flasks"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5"><a href="#">Create</a></h3>
-								<h4>Information</h4>
-								<h4>Smart ideas</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<div class="services-1">
-							<span class="icon">
-								<i class="flaticon-ideas"></i>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5"><a href="#">Learn</a></h3>
-								<h4>Prototyping</h4>
-								<h4>User Testing</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="ftco-section bg-light" id="skills-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Education</span>
+                    <h2 class="mb-4">My Education</h2>
+                    <p>Institutes that helped me to learn, and explore my talents!!</p>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li class="booking-card" style="background-image: url(https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/142/2018/2/13/NIT-Raipur-1.jpg)">
+                      <div class="book-container">
+                        <div class="content">
+                          <button class="btn" onClick = "location.href=http://nitrr.ac.in/">Visit</button>
+                        </div>
+                      </div>
+                      <div class="informations-container">
+                        <h2 class="title">NATIONAL INSTITUTE OF TECHNOLOGY RAIPUR</h2>
+                        <p class="sub-title">Computer Science and Engineering</p>
+                        <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                  </svg>3rd year</p>
+                        <div class="more-information">
+                          <div class="info-and-date-container">
+                            <div class="box info">
+                              <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+                    </svg>
+                              <p>Current semester - 6</p>
+                            </div>
+                            <div class="box date">
+                              <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                    </svg>
+                              <p>Year of join 2018</p>
+                            </div>
+                          </div>
+                          <p class="disclaimer">My current CPI is 9.02</p>
+                          </div>
+                      </div>
+                    </li>
+                  
+                    <li class="booking-card" style="background-image: url(https://lh3.googleusercontent.com/proxy/stJpFI5tSiIJvxRX73-sPZ9TTSVYLuFvt-eW4YSntb-ctAayT5rJk8kOxbNG7bSME7K42Y5g94gHW5OQrqcM0Q)">
+                      <div class="book-container">
+                        <div class="content">
+                          <button class="btn" onClick = "location.href=http://opsambk.com/">Visit</button>
+                        </div>
+                      </div>
+                      <div class="informations-container">
+                        <h2 class="title">ORIENTAL PUBLIC SCHOOL, AMBIKAPUR, CHHATTISGARH</h2>
+                        <p class="sub-title">Heigher Secondary Qualification (CBSE)</p>
+                        <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                  </svg>Class - 12th</p>
+                        <div class="more-information">
+                          <div class="info-and-date-container">
+                            <div class="box date">
+                              <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                    </svg>
+                              <p>Year of passing 2017</p>
+                            </div>
+                          </div>
+                          <p class="disclaimer">Passed with 91.8%, my core subjects were Physics, Chemistry, Maths, English ans IT</p>
+                          </div>
+                      </div>
+                    </li>
+                  
+                    
+                    <li class="booking-card" style="background-image: url(https://lh3.googleusercontent.com/proxy/stJpFI5tSiIJvxRX73-sPZ9TTSVYLuFvt-eW4YSntb-ctAayT5rJk8kOxbNG7bSME7K42Y5g94gHW5OQrqcM0Q)">
+                      <div class="book-container">
+                        <div class="content">
+                          <button class="btn" onClick = "location.href=http://opsambk.com/">Visit</button>
+                        </div>
+                      </div>
+                      <div class="informations-container">
+                        <h2 class="title">ORIENTAL PUBLIC SCHOOL, AMBIKAPUR, CHHATTISGARH</h2>
+                        <p class="sub-title">Heigher Secondary Qualification (CBSE)</p>
+                        <p class="price"><svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                  </svg>Class - 10th</p>
+                        <div class="more-information">
+                          <div class="info-and-date-container">
+                            <div class="box date">
+                              <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                    </svg>
+                              <p>Year of passing 2015</p>
+                            </div>
+                          </div>
+                          <p class="disclaimer">Passed with 10 CGPA, my core subjects were Physics, Chemistry, Maths, English ans IT</p>
+                          </div>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </section>
 
-		
- 
+    <section class="ftco-section bg-light" id="skills-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Skills</span>
+                    <h2 class="mb-4">My Skills</h2>
+                    <p>Far far away, behind the word mountains, far from skills enhancing to proficiency level!!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Reactjs</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:75%">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Nodejs</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                aria-valuemax="100" style="width:30%">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Expressjs</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                aria-valuemax="100" style="width:40%">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Mongodb</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100" style="width:50%">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>HTML5</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100" style="width:85%">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>CSS3</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>C++</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>C</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>JavaScript</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>Python</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-2" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                aria-valuemax="100" style="width:30%">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                        <h3>PHP</h3>
+                        <div class="progress">
+                            <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100" style="width:80%">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5 mt-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">What I Do</span>
+                    <h2 class="mb-4">Strategy, Development, idea building, and a bit of magic</h2>
+                    <p>I'm regularly learning and enhancing my skills to heigher level and applying it in the best
+                        way i could do in project. </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-analysis"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Explore</a></h3>
+                            <h4>Design Sprints</h4>
+                            <h4>web Technology</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-flasks"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Create</a></h3>
+                            <h4>Information</h4>
+                            <h4>Smart ideas</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center d-flex ftco-animate">
+                    <div class="services-1">
+                        <span class="icon">
+                            <i class="flaticon-ideas"></i>
+                        </span>
+                        <div class="desc">
+                            <h3 class="mb-5"><a href="#">Learn</a></h3>
+                            <h4>Prototyping</h4>
+                            <h4>User Testing</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Accomplishments</span>
-            <h2 class="mb-4">My Projects</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Accomplishments</span>
+                    <h2 class="mb-4">My Projects</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="images/project-1.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Amazon-clone website</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">This is a Amazon clone website, having features of signin/signout purchase items, make payment, check your cart. Tech stack - MERN&hellip;</p>
+                      <a href="https://challenge-d8456.web.app/" class="news-card__read-more">Visit <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="https://xlinesoft.com/images/scr_todolist1.png?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Todo-app</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">This is a web app designed with the help of MERN, its purpose is to create, update, todos in the app in the user account.&hellip;</p>
+                      <a href="https://github.com/Rahul-skush/TODO-APP" class="news-card__read-more">Check Repository</a> <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="images/project-3.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Real Time Chat app</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">This is real time chat application, build with socket.io and nodejs&hellip;</p>
+                      <a href="https://github.com/Rahul-skush/chat-app" class="news-card__read-more">Check Repository</a> <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="https://github.com/Rahul-skush/Food-Filler/raw/master/markdown-demo/home.png?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Food-filler</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">Food donation website, where any user can donate their leftover edible stuffs to poor peoples. build in php</p>
+                      <a href="https://github.com/Rahul-skush/Food-Filler" class="news-card__read-more">Check Repository<i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Nari Suraksha</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">Website for women safety, where she can easily contact help center, complain against harashments, and checkout harashing social id's, numbers &hellip;</p>
+                      <a href="https://github.com/Rahul-skush/NariSuraksha" class="news-card__read-more">Check Repository <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="news-card">
+                  <a href="#" class="news-card__card-link"></a>
+                  <img src="images/project-2.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="news-card__image">
+                  <div class="news-card__text-wrapper">
+                    <h2 class="news-card__title">Dice game</h2>
+                    <div class="news-card__details-wrapper">
+                      <p class="news-card__excerpt">It is a simple javascript dice game which is played with two players, along with setting target is one of interesting feature</p>
+                      <a href="https://rahul-skush.github.io/dice-game/" class="news-card__read-more">Visit <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
         </div>
-    		<div class="row">
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Sample &amp; blogging website</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="row">
-    					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Sample &amp; dice game</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Sample &amp; blogging website</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Sample &amp;blogging website</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Sample &amp; dice game</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-    		</div>
-    	</div>
     </section>
 
 
-   
 
-    
-		
+
+
+
 
     <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Lets talk about</h2>
-              <p>My social media accounts</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100027086010139"><span class="icon-facebook"></span></a></li>
-				<li class="ftco-animate"><a href="https://www.facebook.com/kush_the_rahul"><span class="icon-instagram"></span></a></li>
-				<li class="ftco-animate"><a href="https://www.linkedin.com/in/rahul-singh-b92424178"><span class="icon-linkedin"></span></a></li>
-				<li class="ftco-animate"><a href="https://github.com/Rahul-skush"><span class="icon-github"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Address Details</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><a href ="https://goo.gl/maps/oBsoXBoMWGxAm6PR8"><span class="icon icon-map-marker"></span><span class="text">H no. 190, Capital city phase, Saddu, Raipur, Chhattisgarh, India</span></a></li>
-	                <li><a href="tel:+91-7222923846"><span class="icon icon-phone"></span><span class="text">+91-7222923846</span></a></li>
-	                <li><a href="mailto:Rahulsingh21247@gmail.com"><span class="icon icon-envelope"></span><span class="text">Rahulsingh21247@gmail.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Lets talk about</h2>
+                        <p>My social media accounts</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a
+                                    href="https://www.facebook.com/profile.php?id=100027086010139"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/kush_the_rahul"><span
+                                        class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/in/rahul-singh-b92424178"><span
+                                        class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://github.com/Rahul-skush"><span
+                                        class="icon-github"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Links</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-          </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Address Details</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><a href="https://goo.gl/maps/oBsoXBoMWGxAm6PR8"><span
+                                            class="icon icon-map-marker"></span><span class="text">H no. 190,
+                                            Capital city phase, Saddu, Raipur, Chhattisgarh, India</span></a></li>
+                                <li><a href="tel:+91-7222923846"><span class="icon icon-phone"></span><span
+                                            class="text">+91-7222923846</span></a></li>
+                                <li><a href="mailto:Rahulsingh21247@gmail.com"><span
+                                            class="icon icon-envelope"></span><span
+                                            class="text">Rahulsingh21247@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
-  </body>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
